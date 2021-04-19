@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('requestApi', (q, type, limit) => {
+    cy.request({
+        method: "GET",
+        url: `https://tastedive.com/api/similar?q=${q.join(
+            ","
+        )}&type=${type}&limit=${limit}&k=409787-wcstesta-PE0MDEN2`,
+    });
+})

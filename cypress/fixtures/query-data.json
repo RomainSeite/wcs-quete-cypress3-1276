@@ -1,0 +1,94 @@
+[
+    {
+        "testCase": "C001 - basic case 1",
+        "query":
+            {
+            "q":["death cab for cutie"],
+            "type":"music",
+            "limit": 20
+            },
+        "expected": 
+            {
+                "status": 200,
+                "format": "application/json",
+                "type": "music"
+            }
+    },
+    {
+        "testCase": "C002 - basic case 2",
+        "query":
+            {
+            "q":["nirvana"],
+            "type":"movies",
+            "limit": 5
+            },
+        "expected": 
+            {
+                "status": 200,
+                "format": "application/json",
+                "type": "movie"
+            }
+    },
+    {
+        "testCase": "C003 - 15 tolkien-acdc shows",
+        "query":
+            {
+            "q":["tolkien", "acdc"],
+            "type":"shows",
+            "limit": 15
+            },
+        "expected": 
+            {
+                "status": 200,
+                "format": "application/json",
+                "type": "show"
+            }
+    },
+    {
+        "testCase": "C004 - 5 nirvana, al Pacino movies",
+        "query":
+            {
+            "q":["nirvana", "al pacino"],
+            "type":"movies",
+            "limit": 5
+            },
+        "expected": 
+            {
+                "status": 200,
+                "format": "application/json",
+                "type": "movie"
+            }
+    },
+    {
+        "testCase": "C004 - limit is not a number",
+        "query":
+            {
+            "q":["jules verne"],
+            "type":"author",
+            "limit": "a"
+            },
+        "expected": 
+            {
+                "status": 200,
+                "format": "application/json",
+                "type": "author",
+                "limit": 20
+            }
+    },
+    {
+        "testCase": "C005 - q is a number",
+        "query":
+            {
+            "q":["1234"],
+            "type":"",
+            "limit": 20
+            },
+        "expected": 
+            {
+                "status": 200,
+                "format": "application/json",
+                "type": "author",
+                "limit": 20
+            }
+    }
+]
