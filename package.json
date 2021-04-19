@@ -4,7 +4,9 @@
   "description": "This repo hosts solution for WCS cypress quete 3 (api test)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sylvain-viole/wcs-quete-cypress3-1276/issues"
   },
-  "homepage": "https://github.com/sylvain-viole/wcs-quete-cypress3-1276#readme"
+  "homepage": "https://github.com/sylvain-viole/wcs-quete-cypress3-1276#readme",
+  "devDependencies": {
+    "cypress": "^7.1.0"
+  }
 }
