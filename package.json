@@ -1,0 +1,20 @@
+{
+  "name": "wcs-quete-cypress3-1276",
+  "version": "1.0.0",
+  "description": "This repo hosts solution for WCS cypress quete 3 (api test)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylvain-viole/wcs-quete-cypress3-1276.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylvain-viole/wcs-quete-cypress3-1276/issues"
+  },
+  "homepage": "https://github.com/sylvain-viole/wcs-quete-cypress3-1276#readme"
+}
