@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "14"
+
+install:
+  - npm install
+
+before_script:
+  - node --version
+  - npm --version
+  - node_modules/.bin/cypress --version
+
+script:
+  - npm run cy:run -- --record --spec "cypress/integration/api-test/api-test.spec.js"
