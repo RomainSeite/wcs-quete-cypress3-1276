@@ -11,4 +11,4 @@ before_script:
   - node_modules/.bin/cypress --version
 
 script:
-  - npm run cy:run -- --record --spec "cypress/integration/api-test/api-test.spec.js"
+  - cypress run --record --key a11dc96e-dc53-439c-be79-fc7858f756b8
