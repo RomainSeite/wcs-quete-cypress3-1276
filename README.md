@@ -1,5 +1,5 @@
 # wcs-quete-cypress3-1276
-
+[![Build Status](https://travis-ci.org/sylvain-viole/wcs-quete-cypress3-1276.svg?branch=main)](https://travis-ci.org/sylvain-viole/wcs-quete-cypress3-1276)
 ### Description
 This repo hosts API `taste dive` test suite using Cypress.
 
