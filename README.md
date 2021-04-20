@@ -1,2 +1,13 @@
 # wcs-quete-cypress3-1276
-This repo hosts solution for WCS cypress quete 3 (api test)
+
+### Description
+This repo hosts API `taste dive` test suite using Cypress.
+
+### How To :
+
+```
+git clone https://github.com/sylvain-viole/wcs-quete-cypress3-1276.git
+cd wcs-quete-cypress3-1276
+npm install
+npm run cy:run
+```
